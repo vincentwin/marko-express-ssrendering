@@ -1,0 +1,27 @@
+<lasso-page package-path="./browser.json"/>
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title><include(input.title)/></title>
+  <!-- CSS includes -->
+  <lasso-head/>
+</head>
+<body>
+  <header>
+    <lasso-img src="./logo.png" atl="marko logo"/>
+    <h1><include(input.title)/></h1>
+    <nav.menu>
+      <a href="/">home</a>
+      <a href="/hello/routing">routes</a>
+      <a href="/layouts">layouts</a>
+    </nav>
+  </header>
+  <div.content>
+    <include(input.content)/>
+  </div>
+  <browser-refresh enabled="true"/>
+  <lasso-body/>
+  </body>
+</html>

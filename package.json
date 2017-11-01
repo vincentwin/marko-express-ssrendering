@@ -1,0 +1,21 @@
+{
+  "name": "marko-lasso",
+  "version": "1.0.0",
+  "description": "Sample app: Marko + Lasso",
+  "main": "server.js",
+  "scripts": {
+    "start": "browser-refresh server.js"
+  },
+  "license": "ISC",
+  "homepage": "https://github.com/marko-js-samples/marko-lasso",
+  "dependencies": {
+    "browser-refresh-taglib": "^1.1.0",
+    "compression": "^1.7.1",
+    "express": "^4.16.2",
+    "lasso": "^2.11.20",
+    "lasso-less": "^2.4.7",
+    "lasso-marko": "^2.3.1",
+    "marko": "^4.5.5"
+  },
+  "devDependencies": {}
+}
