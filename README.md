@@ -3,6 +3,7 @@
 ## Install
 
 ```bash
+npm install -g browser-refresh
 npm install
 ```
 
